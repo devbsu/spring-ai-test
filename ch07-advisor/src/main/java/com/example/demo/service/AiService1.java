@@ -20,7 +20,7 @@ public class AiService1 {
         .build();
     }
 
-    public String advisorChin1(String question) {
+    public String advisorChain1(String question) {
         String answer = chatClient.prompt()
                 .user(question)
                 .advisors(new AdvisorC()) // 객체 추가
@@ -29,7 +29,7 @@ public class AiService1 {
 
         return answer;
     }
-    public String advisorChin2(String question) {
+    public String advisorChain2(String question) {
         String answer = chatClient.prompt()
                 .user(question)
                 .call()

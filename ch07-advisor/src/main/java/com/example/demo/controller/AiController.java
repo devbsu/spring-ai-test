@@ -32,7 +32,8 @@ public class AiController {
 
     @PostMapping(value = "/advisor-chain", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE, produces = MediaType.TEXT_PLAIN_VALUE)
     public String advisorChain(@RequestParam("question") String question) {
-        String answer = aiService1.advisorChin2(question);
+        // String answer = aiService1.advisorChain1(question);
+        String answer = aiService1.advisorChain2(question);
         return answer;
     }
 
