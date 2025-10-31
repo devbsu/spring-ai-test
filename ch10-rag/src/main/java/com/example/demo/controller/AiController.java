@@ -11,7 +11,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.example.demo.service.ETLService;
 import com.example.demo.service.RagService1;
+import com.example.demo.service.RagService2;
 
+import jakarta.servlet.http.HttpSession;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -23,6 +25,9 @@ public class AiController {
 
     @Autowired
     RagService1 ragService1;
+
+    @Autowired
+    RagService2 ragService2;
 
     @PostMapping(value = "txt-pdf-docx-etl", consumes = MediaType.MULTIPART_FORM_DATA_VALUE, produces = MediaType.TEXT_PLAIN_VALUE)
     public String txtPdfDocxEtl(@RequestParam("title") String title,
@@ -71,4 +76,42 @@ public class AiController {
         String answer = ragService1.ragChat(question, score, source);
         return answer;
     }
+
+    @PostMapping(value = "/compression-query-transformer", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE, produces = MediaType.TEXT_PLAIN_VALUE)
+    public String compressionQueryTransformer(
+            @RequestParam("question") String question,
+            @RequestParam(value = "score", defaultValue = "0.0") double score,
+            @RequestParam("source") String source,
+            HttpSession session) {
+        String answer = ragService2.chatWithCompression(question, score, source, session.getId());
+        return answer;
+    }
+
+    @PostMapping(value = "/rewrite-query-transformer", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE, produces = MediaType.TEXT_PLAIN_VALUE)
+    public String rewriteQueryTransformer(
+            @RequestParam("question") String question,
+            @RequestParam(value = "score", defaultValue = "0.0") double score,
+            @RequestParam("source") String source) {
+        String answer = ragService2.chatWithRewriteQuery(question, score, source);
+        return answer;
+    }
+
+    @PostMapping(value = "/translation-query-transformer", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE, produces = MediaType.TEXT_PLAIN_VALUE)
+    public String translationQueryTransformer(
+            @RequestParam("question") String question,
+            @RequestParam(value = "score", defaultValue = "0.0") double score,
+            @RequestParam("source") String source) {
+        String answer = ragService2.chatWithTranslation(question, score, source);
+        return answer;
+    }
+
+    @PostMapping(value = "/multi-query-expander", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE, produces = MediaType.TEXT_PLAIN_VALUE)
+    public String multiQueryExpander(
+            @RequestParam("question") String question,
+            @RequestParam(value = "score", defaultValue = "0.0") double score,
+            @RequestParam("source") String source) {
+        String answer = ragService2.chatWithMultiQuery(question, score, source);
+        return answer;
+    }
+
 }
