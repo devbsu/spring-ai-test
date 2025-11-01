@@ -1,0 +1,31 @@
+2025-11-01T14:30:26.417+09:00  INFO 13712 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.8 with PID 13712 (C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-datetime\build\classes\java\main started by KOSA in C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-datetime)
+2025-11-01T14:30:26.424+09:00  INFO 13712 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-01T14:30:27.937+09:00  INFO 13712 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-11-01T14:30:27.939+09:00  INFO 13712 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-11-01T14:30:27.941+09:00  INFO 13712 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-11-01T14:30:27.944+09:00  INFO 13712 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-11-01T14:30:28.458+09:00  INFO 13712 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.258 seconds (process running for 4.757)
+2025-11-01T14:42:52.749+09:00  INFO 24204 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.8 with PID 24204 (C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-datetime\build\classes\java\main started by KOSA in C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-datetime)
+2025-11-01T14:42:52.757+09:00  INFO 24204 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-01T14:42:54.868+09:00  INFO 24204 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-11-01T14:42:55.021+09:00  INFO 24204 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-11-01T14:42:55.022+09:00  INFO 24204 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-11-01T14:42:55.024+09:00  INFO 24204 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-11-01T14:42:55.025+09:00  INFO 24204 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-11-01T14:42:55.574+09:00  INFO 24204 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.908 seconds (process running for 4.748)
+2025-11-01T14:43:43.642+09:00  INFO 22608 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.8 with PID 22608 (C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-datetime\build\classes\java\main started by KOSA in C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-datetime)
+2025-11-01T14:43:43.646+09:00  INFO 22608 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-01T14:43:45.186+09:00  INFO 22608 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-11-01T14:43:45.343+09:00  INFO 22608 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-11-01T14:43:45.344+09:00  INFO 22608 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-11-01T14:43:45.346+09:00  INFO 22608 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-11-01T14:43:45.347+09:00  INFO 22608 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-11-01T14:43:45.789+09:00  INFO 22608 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.171 seconds (process running for 4.381)
+2025-11-01T14:44:14.068+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.8 with PID 15728 (C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-datetime\build\classes\java\main started by KOSA in C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-datetime)
+2025-11-01T14:44:14.072+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-01T14:44:16.100+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-11-01T14:44:16.298+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-11-01T14:44:16.298+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-11-01T14:44:16.300+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-11-01T14:44:16.302+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-11-01T14:44:16.728+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.582 seconds (process running for 4.872)
