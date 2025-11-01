@@ -1,0 +1,8 @@
+2025-07-01T23:33:01.081+09:00  INFO 97016 --- [ch12-mcp-server-stdio-filesystem] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.7 with PID 97016 (D:\Work\ai\book-spring-ai\projects\ch12-mcp-server-stdio-filesystem\bin\main started by blueskii in D:\Work\ai\book-spring-ai\projects\ch12-mcp-server-stdio-filesystem)
+2025-07-01T23:33:01.083+09:00  INFO 97016 --- [ch12-mcp-server-stdio-filesystem] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T23:33:01.876+09:00  INFO 97016 --- [ch12-mcp-server-stdio-filesystem] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-01T23:33:01.979+09:00  INFO 97016 --- [ch12-mcp-server-stdio-filesystem] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 6
+2025-07-01T23:33:01.979+09:00  INFO 97016 --- [ch12-mcp-server-stdio-filesystem] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-01T23:33:01.981+09:00  INFO 97016 --- [ch12-mcp-server-stdio-filesystem] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-01T23:33:01.981+09:00  INFO 97016 --- [ch12-mcp-server-stdio-filesystem] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-01T23:33:02.146+09:00  INFO 97016 --- [ch12-mcp-server-stdio-filesystem] [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.46 seconds (process running for 1.953)
