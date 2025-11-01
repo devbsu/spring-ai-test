@@ -1,0 +1,16 @@
+2025-07-01T23:39:16.501+09:00  INFO 52508 --- [ch12-mcp-server-stdio-internetsearch] [Test worker] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 21.0.7 with PID 52508 (started by blueskii in D:\Work\ai\book-spring-ai\projects\ch12-mcp-server-stdio-internetsearch)
+2025-07-01T23:39:16.503+09:00  INFO 52508 --- [ch12-mcp-server-stdio-internetsearch] [Test worker] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T23:39:17.343+09:00  INFO 52508 --- [ch12-mcp-server-stdio-internetsearch] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-01T23:39:17.395+09:00  INFO 52508 --- [ch12-mcp-server-stdio-internetsearch] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-07-01T23:39:17.395+09:00  INFO 52508 --- [ch12-mcp-server-stdio-internetsearch] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-01T23:39:17.396+09:00  INFO 52508 --- [ch12-mcp-server-stdio-internetsearch] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-01T23:39:17.396+09:00  INFO 52508 --- [ch12-mcp-server-stdio-internetsearch] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-01T23:39:17.839+09:00  INFO 52508 --- [ch12-mcp-server-stdio-internetsearch] [Test worker] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 1.623 seconds (process running for 2.691)
+2025-07-01T23:39:36.293+09:00  INFO 91716 --- [ch12-mcp-server-stdio-internetsearch] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.7 with PID 91716 (D:\Work\ai\book-spring-ai\projects\ch12-mcp-server-stdio-internetsearch\bin\main started by blueskii in D:\Work\ai\book-spring-ai\projects\ch12-mcp-server-stdio-internetsearch)
+2025-07-01T23:39:36.296+09:00  INFO 91716 --- [ch12-mcp-server-stdio-internetsearch] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T23:39:37.301+09:00  INFO 91716 --- [ch12-mcp-server-stdio-internetsearch] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-01T23:39:37.358+09:00  INFO 91716 --- [ch12-mcp-server-stdio-internetsearch] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-07-01T23:39:37.358+09:00  INFO 91716 --- [ch12-mcp-server-stdio-internetsearch] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-01T23:39:37.359+09:00  INFO 91716 --- [ch12-mcp-server-stdio-internetsearch] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-01T23:39:37.360+09:00  INFO 91716 --- [ch12-mcp-server-stdio-internetsearch] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-01T23:39:37.833+09:00  INFO 91716 --- [ch12-mcp-server-stdio-internetsearch] [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.974 seconds (process running for 2.518)
