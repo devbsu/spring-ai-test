@@ -6,3 +6,11 @@
 2025-11-01T14:50:22.153+09:00  INFO 19236 --- [ch12-mcp-server-stdio-boombarrier] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
 2025-11-01T14:50:22.155+09:00  INFO 19236 --- [ch12-mcp-server-stdio-boombarrier] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
 2025-11-01T14:50:22.649+09:00  INFO 19236 --- [ch12-mcp-server-stdio-boombarrier] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.091 seconds (process running for 4.175)
+2025-11-01T15:33:26.514+09:00  INFO 17020 --- [ch12-mcp-server-stdio-boombarrier] [Test worker] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 21.0.8 with PID 17020 (started by KOSA in C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-boombarrier)
+2025-11-01T15:33:26.515+09:00  INFO 17020 --- [ch12-mcp-server-stdio-boombarrier] [Test worker] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-11-01T15:33:27.594+09:00  INFO 17020 --- [ch12-mcp-server-stdio-boombarrier] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-11-01T15:33:27.700+09:00  INFO 17020 --- [ch12-mcp-server-stdio-boombarrier] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-11-01T15:33:27.700+09:00  INFO 17020 --- [ch12-mcp-server-stdio-boombarrier] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-11-01T15:33:27.701+09:00  INFO 17020 --- [ch12-mcp-server-stdio-boombarrier] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-11-01T15:33:27.702+09:00  INFO 17020 --- [ch12-mcp-server-stdio-boombarrier] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-11-01T15:33:27.948+09:00  INFO 17020 --- [ch12-mcp-server-stdio-boombarrier] [Test worker] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 1.817 seconds (process running for 3.554)

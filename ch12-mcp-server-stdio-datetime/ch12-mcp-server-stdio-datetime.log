@@ -29,3 +29,11 @@
 2025-11-01T14:44:16.300+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
 2025-11-01T14:44:16.302+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
 2025-11-01T14:44:16.728+09:00  INFO 15728 --- [ch12-mcp-server-stdio-datetime] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.582 seconds (process running for 4.872)
+2025-11-01T15:36:28.453+09:00  INFO 5736 --- [ch12-mcp-server-stdio-datetime] [Test worker] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 21.0.8 with PID 5736 (started by KOSA in C:\kosa-course\projects\07.spring-ai\ch12-mcp-server-stdio-datetime)
+2025-11-01T15:36:28.456+09:00  INFO 5736 --- [ch12-mcp-server-stdio-datetime] [Test worker] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-11-01T15:36:29.494+09:00  INFO 5736 --- [ch12-mcp-server-stdio-datetime] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-11-01T15:36:29.592+09:00  INFO 5736 --- [ch12-mcp-server-stdio-datetime] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-11-01T15:36:29.592+09:00  INFO 5736 --- [ch12-mcp-server-stdio-datetime] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-11-01T15:36:29.593+09:00  INFO 5736 --- [ch12-mcp-server-stdio-datetime] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-11-01T15:36:29.594+09:00  INFO 5736 --- [ch12-mcp-server-stdio-datetime] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-11-01T15:36:29.837+09:00  INFO 5736 --- [ch12-mcp-server-stdio-datetime] [Test worker] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 1.823 seconds (process running for 3.587)
